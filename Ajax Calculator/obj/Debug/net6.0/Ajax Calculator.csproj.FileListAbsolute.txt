@@ -1,0 +1,26 @@
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\appsettings.Development.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\appsettings.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\Ajax Calculator.staticwebassets.runtime.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\Ajax Calculator.exe
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\Ajax Calculator.deps.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\Ajax Calculator.runtimeconfig.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\Ajax Calculator.dll
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\bin\Debug\net6.0\Ajax Calculator.pdb
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.csproj.AssemblyReference.cache
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.AssemblyInfoInputs.cache
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.AssemblyInfo.cs
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.csproj.CoreCompileInputs.cache
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.MvcApplicationPartsAssemblyInfo.cache
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.RazorAssemblyInfo.cache
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.RazorAssemblyInfo.cs
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\staticwebassets.build.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\staticwebassets.development.json
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\scopedcss\bundle\Ajax Calculator.styles.css
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\scopedcss\projectbundle\Ajax Calculator.bundle.scp.css
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.dll
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\refint\Ajax Calculator.dll
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.pdb
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\Ajax Calculator.genruntimeconfig.cache
+E:\3rd year\2nd Semester\SoftStudio\Ajax Calculator\obj\Debug\net6.0\ref\Ajax Calculator.dll
