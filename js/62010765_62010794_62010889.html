@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Image Gallery</title>
+</header>
+
+<body>
+    <!------Date with color changes------------->
+    <h2>My First JavaScript</h2>
+    <button id="date" onclick="dateUpdate()"></button><br>
+    <!------Toggle members list----------------->
+    <a onclick="toggleMembers()" id="members-color" onmouseover="aHover()" onmouseout="aNormal()">Members</a><br>
+    <ul id="toggleMemberList">
+        <li>Rapeepat Pengtee, ID: 62010765</li>
+        <li>Voranipit Chaipinitnorachart, ID: 62010794</li>
+        <li>Supakit Lokaew, ID: 62010889</li>
+    </ul>
+    <!------Image banner with image ul li list-->
+    <h1>Snapshots</h1>
+    <ul>
+        <li><a href="#" onclick="changeImageSrc(0)" id="image-color0">พี่เอ้1</a></li>
+        <li><a href="#" onclick="changeImageSrc(1)" id="image-color1">พี่เอ้2</a></li>
+        <li><a href="#" onclick="changeImageSrc(2)" id="image-color2">พี่เอ้3</a></li>
+        <li><a href="#" onclick="changeImageSrc(3)" id="image-color3">พี่เอ้4</a></li>
+        <li><a href="#" onclick="changeImageSrc(4)" id="image-color4">พี่เอ้5</a></li>
+    </ul>
+    <img src="https://www.matichon.co.th/wp-content/uploads/2021/12/DSC_8323.jpg" alt="Fc P'A" id="image">
+</body>
+
+<script>
+    //init page
+    const color = ["red", "yellow", "green", "cyan", "deeppink"];
+    const text_color = ["white", "black", "white", "black", "white"];
+    let color_index = 0;
+    //date
+    const id_date = document.getElementById("date");
+    id_date.innerHTML = new Date();
+    id_date.style.backgroundColor = color[color_index];
+    id_date.style.color = text_color[color_index];
+    id_date.style.width = "max-content";
+    id_date.style.marginBottom = "1rem";
+    //toggle list
+    const a_member = document.getElementById("members-color");
+    a_member.style.color = "deeppink";
+    a_member.style.textDecoration = "none";
+    a_member.style.marginBottom = "2rem";
+    const toggle_member = document.getElementById("toggleMemberList");
+    toggle_member.style.display = "none";
+    //image changes
+    document.getElementById("image-color0").style.color = "deeppink";
+    document.getElementById("image-color0").style.textDecoration = "none";
+    document.getElementById("image-color1").style.color = "deeppink";
+    document.getElementById("image-color1").style.textDecoration = "none";
+    document.getElementById("image-color2").style.color = "deeppink";
+    document.getElementById("image-color2").style.textDecoration = "none";
+    document.getElementById("image-color3").style.color = "deeppink";
+    document.getElementById("image-color3").style.textDecoration = "none";
+    document.getElementById("image-color4").style.color = "deeppink";
+    document.getElementById("image-color4").style.textDecoration = "none";
+    const image_src = [
+        "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZGUJUjFgKTSvMQxxPgzvNRvakbLIcW.webp",
+        "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZGUJUjFgKTSvMQxwzldXk7BdveAz7m.webp",
+        "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZGUJUjFgKTSvMQxxGeJbT8vRNE1QpI.webp",
+        "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZGUJUjFgKTSvMQxxVpJtSdyr0gEzDz.webp",
+        "https://static.thairath.co.th/media/4DQpjUtzLUwmJZZGUJUjFgKTSvMQxxb1T5dOKglvOoqd.webp"
+    ]
+
+    function dateUpdate() {
+        id_date.innerHTML = new Date();
+        color_index++;
+        if (color_index === 5) color_index = 0;
+        id_date.style.backgroundColor = color[color_index];
+        id_date.style.color = text_color[color_index];
+    }
+
+    function toggleMembers() {
+        if (toggle_member.style.display === "none") toggle_member.style.display = "block";
+        else toggle_member.style.display = "none";
+    }
+
+    function aNormal() {
+        a_member.style.color = "deeppink";
+        a_member.style.background = "none";
+        a_member.style.textDecoration = "none";
+    }
+
+    function aHover() {
+        a_member.style.color = "black";
+        a_member.style.background = "yellow";
+        a_member.style.textDecoration = "none";
+    }
+
+    function changeImageSrc(input) {
+        document.getElementById("image").src = image_src[input];
+    }
+</script>
+
+</html>
